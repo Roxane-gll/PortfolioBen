@@ -54,6 +54,15 @@
     left: 55vw;
 }
 
+#contact>li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    position: relative;
+    left: 65vw;
+    top: -15vh;
+}
+
 #contact>p:nth-of-type(1){
     font-weight: bold;
 }
@@ -72,6 +81,30 @@
     left: 10vw;
     width: 20vw;
     height: 20vh;
+}
+
+#aPropos>div{
+    position: absolute;
+    top: -10vh;
+    left: 10vw;
+    width: 50vw;
+}
+
+#aPropos>div>p{
+    font-size: 20px;
+}
+
+#aPropos>div>p:nth-of-type(1){
+    font-weight: bold;
+}
+
+#aPropos>div>p:nth-of-type(6){
+    color: #6BC95B;
+    font-weight: bold;
+}
+
+#aPropos>div>p:nth-of-type(8){
+    font-weight: bold;
 }
 
 .hiddenC{

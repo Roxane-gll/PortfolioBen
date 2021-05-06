@@ -11,12 +11,11 @@ $access_token=getenv('accessToken');
 
 let aProposPerson=document.getElementById('aPropos')
 let contactsPerson=document.getElementById('contact')
-let access='c95b00359d4925150fa4c9e817303bcea35473af9da979218850164ba5adb41c';
 
 //add info from dribbble
 
 $.ajax({
-    url: 'https://api.dribbble.com/v2/user?access_token='+access/*'<?= getenv('accessToken') ?>'*/,
+    url: 'https://api.dribbble.com/v2/user?access_token='+'<?= getenv('accessToken') ?>',
     dataType: 'json',
     type: 'GET',
     success: function(data) {
@@ -47,7 +46,7 @@ $.ajax({
 //add projet
 
 $.ajax({
-    url: 'https://api.dribbble.com/v2/user/shots?access_token='+access/*'<?= getenv('accessToken') ?>'*/+'&per_page=100',
+    url: 'https://api.dribbble.com/v2/user/shots?access_token='+'<?= getenv('accessToken') ?>'+'&per_page=100',
     dataType: 'json',
     type: 'GET',
     success: function(data) {

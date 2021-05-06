@@ -58,7 +58,7 @@ body{
 }
 
 #annimation{
-    background-color: white;
+    background-color: black;
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -69,7 +69,7 @@ body{
 #annimation>div{
     position: absolute;
     top: 10vh;
-    left: 35vw;
+    left: 25vw;
     height: 100vh;
     width: 65vw;
     overflow: hidden;

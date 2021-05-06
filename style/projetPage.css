@@ -132,6 +132,7 @@ ol.carousel-indicators li.active {
     top: 60px;
     left: 40vh;
     border-radius: 14px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .shot >p:hover{
